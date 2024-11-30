@@ -1,7 +1,10 @@
 # Spelunker-DP
 スペランカー データパック
 マインクラフトでスペランカー風のモードで遊べるデータパックです
-
+  
+#ダウンロード方法  
+右にあるReleaseからダウンロードできます  
+  
 #導入方法  
 .minecraft/saves/"ワールド名"/datapacks に"spelunker - datapack"を入れる
   
