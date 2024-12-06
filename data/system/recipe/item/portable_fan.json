@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "cci",
+    " lc"
+  ],
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "i": "minecraft:iron_ingot",
+    "l": "minecraft:lightning_rod"
+  },
+  "result": {
+    "id": "minecraft:goat_horn",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "ポータブルファン",
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_data": "{sp.Item:portable_fan}",
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_model": "system:portable_fan",
+      "minecraft:instrument": {
+        "sound_event": "entity.breeze.wind_burst",
+        "description": "幽霊撃退用のポータブルファン",
+        "range": 1,
+        "use_duration": 3
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "sp.portable_fan"
+      }
+    }
+  },
+  "show_notification": true
+}

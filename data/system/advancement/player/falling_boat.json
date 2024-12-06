@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "gamemode": [
+                "survival",
+                "adventure"
+              ]
+            },
+            "vehicle": {
+              "type": "#system:boats",
+              "movement": {
+                "fall_distance": {
+                  "min": 1.5
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "system:player/falling_boat"
+    }
+  }
+  

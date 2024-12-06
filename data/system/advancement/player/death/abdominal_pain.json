@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "#system:abdominal_pain"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "system:player/death/abdominal_pain"
+    }
+  }
+  

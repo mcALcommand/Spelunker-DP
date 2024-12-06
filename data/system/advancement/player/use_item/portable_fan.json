@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{sp.Item:portable_fan}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "system:player/use_item/portable_fan"
+    }
+  }
+  

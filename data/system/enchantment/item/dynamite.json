@@ -1,0 +1,76 @@
+{
+    "description": "ダイナマイトコマンド用",
+    "supported_items": "minecraft:barrier",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+          "effect": {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:entity.tnt.primed",
+            "volume": 1,
+            "pitch": 1
+          },
+          "requirements": {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sp.Fuse": {
+                  "min": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "system:enchantment/item/dynamite/fuse"
+          },
+          "requirements": {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sp.Fuse": {
+                  "min": 40
+                }
+              }
+            }
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "system:enchantment/item/dynamite/explode"
+          },
+          "requirements": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sp.Fuse": {
+                "min": 40
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+  

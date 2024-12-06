@@ -1,0 +1,260 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "コイン"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:coin,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "ドル袋"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:dollar_bag,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 120,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "エネルギー"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:energy,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "フラッシュ"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:flash,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "ダイナマイト"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:dynamite,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "ミラクル"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:miracle,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "ダイヤモンド"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:diamond,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "x2"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:x2,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "無敵"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:muteki,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "赤いクスリ"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sp.Item:redpotion,sp.AC:true}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:air",
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

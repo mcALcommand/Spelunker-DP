@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "gamemode": [
+        "survival",
+        "adventure"
+      ]
+    },
+    "nbt": "{DeathTime:0s}",
+    "location": {
+      "position": {
+        "y": {
+          "max": 30
+        }
+      }
+    }
+  }
+}
