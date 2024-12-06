@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="ダイヤモンド",item_model="system:diamond",rarity=uncommon,custom_data={sp.Item:diamond,sp.AC:true},max_stack_size=1]

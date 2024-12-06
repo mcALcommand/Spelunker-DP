@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="無敵",item_model="system:muteki",rarity=uncommon,custom_data={sp.Item:muteki,sp.AC:true},max_stack_size=1]

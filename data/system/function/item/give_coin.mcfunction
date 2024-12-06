@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="コイン",item_model="system:coin",rarity=uncommon,custom_data={sp.Item:coin,sp.AC:true},max_stack_size=1]

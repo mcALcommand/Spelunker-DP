@@ -1,0 +1,2 @@
+#ゴースト召喚
+$execute rotated ~ 0 positioned ~ ~$(hight) ~ run summon item_display ^ ^ ^$(distance) {Glowing:1b,billboard:"vertical",Tags:["sp.Ghost"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_name":"ゴースト","minecraft:item_model":"system:ghost/ghost"}}}

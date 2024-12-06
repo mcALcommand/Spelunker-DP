@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="x2",item_model="system:x2",rarity=uncommon,custom_data={sp.Item:x2,sp.AC:true},max_stack_size=1]

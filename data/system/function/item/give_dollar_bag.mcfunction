@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="ドル袋",item_model="system:dollar_bag",rarity=uncommon,custom_data={sp.Item:dollar_bag,sp.AC:true},max_stack_size=1]

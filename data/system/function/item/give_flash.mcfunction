@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="フラッシュ",item_model="system:flash",rarity=uncommon,custom_data={sp.Item:flash,sp.AC:true},max_stack_size=1]

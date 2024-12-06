@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="エネルギー",item_model="system:energy",rarity=uncommon,custom_data={sp.Item:energy,sp.AC:true},max_stack_size=1]

@@ -1,0 +1,1 @@
+give @s minecraft:command_block[item_name="赤いクスリ",item_model="system:redpotion",rarity=uncommon,custom_data={sp.Item:redpotion,sp.AC:true},max_stack_size=1]

@@ -1,0 +1,1 @@
+give @s minecraft:goat_horn[item_name="ポータブルファン",custom_model_data=1,rarity=uncommon,custom_data={sp.Item:portable_fan},max_stack_size=1,instrument={use_duration:3,range:1,sound_event:"entity.breeze.wind_burst",description:"幽霊撃退用のポータブルファン"},use_cooldown={cooldown_group:"sp.portable_fan",seconds:1}]
